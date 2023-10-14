@@ -63,7 +63,7 @@ func writeTodosToFile(todos []Todo, filename string) {
 func printTodo(todos []Todo) {
 	for t := range todos {
 		println(":" + todos[t].title + ":")
-		println(todos[t].desc)
+		println(todos[t].desc, "\n")
 	}
 }
 
